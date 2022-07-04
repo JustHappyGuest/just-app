@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: rgb(33 35 38 / 10%) 0 10px 10px -10px;
+}
+
+.secondary {
+  background-color: var(--yellow-400);
+}
+
+.content {
+  padding: 2rem 2rem 0;
+}
+
+.footer {
+  border-top: 1px solid var(--black-500);
+  margin: 2rem 2rem 0;
+}
+
+.withoutFooter {
+  padding: 2rem;
+}

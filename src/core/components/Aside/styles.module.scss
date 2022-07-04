@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.75rem 1.5rem;
+  background-color: var(--white);
+  min-height: 100%;
+}
+
+.inner {
+  position: sticky;
+  top: 2.75rem;
+}
+
+.logo {
+  align-self: center;
+}
+
+.menu {
+  margin-top: 1.5rem;
+}
+
+.personCard {
+  margin-top: 2.5rem;
+  background-color: var(--yellow-500);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.personCardTitle {
+  margin-top: 1rem;
+}
+
+.personCardSubtitle {
+  margin-top: 0.25rem;
+}
+
+.image {
+  border-radius: 1rem;
+}

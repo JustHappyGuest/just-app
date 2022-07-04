@@ -1,0 +1,12 @@
+.board {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.enter {
+  position: sticky;
+  bottom: 1rem;
+}

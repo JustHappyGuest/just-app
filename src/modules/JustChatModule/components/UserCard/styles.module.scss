@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--yellow-500);
+  border-radius: 1rem;
+  will-change: background-color;
+  transition: background-color 300ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--yellow-300);
+  }
+}
+
+.greenDot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--green);
+  border-radius: 100%;
+}
+
+.title {
+  flex-grow: 1;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 240px 1fr 334px;
+  grid-template-rows: 1fr;
+  min-height: 100%;
+  grid-gap: 2rem;
+  position: relative;
+}
+
+.inner {
+  background-color: var(--yellow-500);
+  min-height: 100%;
+  padding: 2rem;
+}
+
+.notifications {
+  top: 2rem;
+  height: fit-content;
+  margin: 2rem 2rem 2rem 0;
+  position: sticky;
+}

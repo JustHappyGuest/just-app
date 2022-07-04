@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--black-300);
+  cursor: pointer;
+
+  &:hover {
+    .icon {
+      color: var(--yellow);
+    }
+
+    color: var(--black);
+  }
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--black-300);
+}

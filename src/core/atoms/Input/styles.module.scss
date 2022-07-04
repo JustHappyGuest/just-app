@@ -1,0 +1,23 @@
+.input {
+  border: none;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  font-weight: 600;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: var(--black-300);
+  }
+}
+
+.primary {
+  border: 1px solid var(--black-500);
+}
+
+.secondary {
+  background-color: var(--yellow-500);
+}

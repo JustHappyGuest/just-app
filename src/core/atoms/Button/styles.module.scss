@@ -1,0 +1,23 @@
+.button {
+  color: var(--blue);
+  border: 1px solid rgb(9 27 61 / 10%);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.secondary {
+  background-color: var(--yellow-400);
+  border: none;
+}
+
+.fluid {
+  width: 100%;
+}

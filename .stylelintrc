@@ -1,0 +1,39 @@
+{
+  "customSyntax": "postcss-scss",
+  "rules": {
+    "indentation": 2,
+    "max-empty-lines": 1,
+    "string-quotes": "single",
+    "color-hex-case": "upper",
+    "no-extra-semicolons": true,
+    "value-keyword-case": "lower",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-single-line-max-declarations": 1,
+    "block-no-empty": true,
+    "block-opening-brace-space-before": "always",
+    "block-opening-brace-newline-after": "always",
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "selector-list-comma-space-after": "always",
+    "at-rule-semicolon-space-before": "never",
+    "at-rule-empty-line-before": [
+      "always",
+      { "ignore" : ["after-comment", "blockless-after-same-name-blockless"] }
+    ],
+    "no-empty-first-line": true,
+    "property-no-unknown": [
+      true, {
+        "ignoreProperties": ["composes"]
+      }
+    ],
+    "declaration-block-no-shorthand-property-overrides": true,
+    "selector-type-no-unknown": true,
+    "comment-no-empty": true,
+    "property-case": "lower",
+    "no-missing-end-of-source-newline": true,
+    "declaration-block-trailing-semicolon": "always"
+  }
+}
